@@ -147,6 +147,7 @@ body{
     border: none;
     background-color: var(--amazon-major-color);
     border-radius: 10px;
+    cursor: pointer;
 }
 /*=------------------------Section 2 Css------------------------*/
 .section-2{
@@ -257,6 +258,7 @@ C{
     background: var(--amazon-major-color);
     padding:8px;
     border-radius:15px;
+    cursor: pointer;
 }
 footer{
     margin-top:20px;
