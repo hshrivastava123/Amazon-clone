@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon | Sign in</title>
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/amazon-logo-white-background-montreal-canada-july-printed-paper-98221126.jpg" type="image/x-icon">
+</head>
+
+<style>
+    .f{
+        width: 240px;
+        height: 100px;
+
+    }
+    .d{
+        width:350px;
+        height:550px;
+        border: 1px solid rgb(138, 133, 133);
+        border-radius: 10px;
+    }
+.h1{
+    margin-left:-180px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.l{
+    margin-left: -160px;
+    font-weight: 600;
+    color:rgb(8, 8, 8);
+}
+.t{
+    margin-left: -65px;
+    width:270px;
+    height:30px;
+    
+    
+}
+input[type="text"]:focus{
+    border: 3px solid rgb(240, 197, 5);
+}
+.l1{
+    margin-left: -30px;
+    font-weight:600;
+    color:rgb(23, 22, 22);
+}
+.b2{
+    height:40px;
+    width: 280px;
+    background-color: orange;
+    border:none;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    margin-left:-40px;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-left: -40px;
+}
+.s{
+    margin-left:-140px
+}
+.b{
+    color:grey;
+    margin-left: 90px;
+}
+.b1{
+    height:50px;
+    width: 250px;
+    border:none;
+    padding: 0px;
+    text-align: center;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    margin-left:120px;
+    cursor:pointer;
+    
+}
+.n{
+    font-size:13px;
+    margin-left:-40px;
+
+}
+.popover-content{
+opacity: 0;
+visibility: hidden;
+position:absolute;
+left:-150px;
+background-color: aliceblue;
+padding:1.5rem;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+width:300px;
+}
+.popover-wrapper{
+    position:relative;
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+.popover-content{
+    opacity:0;
+    visibility:hidden;
+    position: absolute;
+    left:-15px;
+    transform:translate(50px,50px);
+    background-color:white;
+    padding:1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0);
+    width:300px;
+}
+.popover-wrapper:hover .popover-content{
+z-index: 10;
+opacity: 1;
+visibility:visible;
+transform: translate(0,-20px);
+transition: all 0.5s cubic-bezier(0.75,-0.02,0.2,0.97);
+
+}
+.popover-content:before{
+    position:absolute;
+    z-index:-1;
+    content: "";
+    right: calc(50% -10%);
+    top: -10%;
+    transform:rotate(360deg);
+    border-style: solid;
+    border-color:transparent transparent rgb(167, 157, 157) transparent;
+    border-width:0 10px 10px 10px;
+    transition-duration:0.3s;
+    transition-property:transform;
+}
+
+    </style>
+
+
+<body>
+    <center>
+<img class="f" src=" https://www.freepnglogos.com/uploads/amazon-png-logo-vector/woodland-gardening-amazon-png-logo-vector-8.png" alt="image logo">
+<div class="d">
+<h1> Sign in</h1>
+<form>
+<label class="l">Enter the email registered<label><br>
+    <input type="text" class="t"><br><br>
+    <label class="l1">Passward&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Forgot your Passward?</a></label><br>
+    <input type="text" class="t"><br><br>
+    <button class="b2">Sign In</button><br>
+    <p>By continuing, you agree to Amazon's<br>
+        <a href="#"> Conditions of Use</a> and <a href="#">Privacy Notice.</p></a>
+        <div class="s"><input type="checkbox">Keep me signed in.
+            <div class="popover-wrapper">
+                <a href="#" class="d2">Details</a>
+                <div class="popover-content">
+                    <p class="popover-message">"keep me signed in" checkbox<hr>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit illum quis est, perspiciatis sed exercitationem sit eius laborum accusamus nisi.
+
+                    </p>
+                    </div>
+                    </div><br>
+                    <p class="b"> New to Amazon</p>
+                    <button class="b1"><span class="n">Create your amazon Account</span></button><br><br>
+                    
+        </div>
+    </form>
+      
+<div> <br><br><br>
+    <a href="#">Condition of use</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="#">Privacy Notice</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="#">Help</a>&nbsp&nbsp&nbsp&nbsp
+<p style="margin-left: 30px;">© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+
+    </center>
+
+
+
+
+    
+</body>
+</html>
